@@ -78,7 +78,6 @@ for i in range(len(ReturnList)):
 
 explained_variation = total_variation - unexplained_variation
 Rsquare = explained_variation/total_variation
-
 #Trading Strategy Test - Trade according to day's Sentiment
 Samedirection = 0
 Oppdirection = 0
@@ -122,19 +121,3 @@ print('Days with no trades = ', Notrades)
 print('-----------------------------------------------------')
 print('Apple Stock Price and Sentiment Chart')
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
